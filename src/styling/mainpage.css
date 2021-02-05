@@ -1,0 +1,38 @@
+*{
+    margin:0;
+}
+.header {
+    border: solid;
+    border-color: darkslateblue;
+    height: 50px;
+    background-color: darkslateblue;
+    display: flex;
+justify-content: space-around;
+}
+.headerText{
+text-decoration: none;
+color: white;
+font-weight: bold;
+padding: 10px;
+font-family: cursive;
+}
+.add{
+    background-color:teal;
+    height:40px;
+    width: 250px;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+}
+.addInput {
+    height:40px;
+    width: 500px;
+    margin: 15px;
+    font-size: 20px;
+}
+.todoItem {
+    padding:10px;
+    background-color:skyblue;
+    border-radius: 10px;
+    margin-left: 25px;
+}
